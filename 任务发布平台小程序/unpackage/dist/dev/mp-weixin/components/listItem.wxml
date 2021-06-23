@@ -1,0 +1,1 @@
+<view class="item-group"><navigator url="{{'../../pages/detail/detail?id='+item_data.id}}"><view class="item-title-group"><view>{{item_data.title}}</view></view><view class="item-title-desc">{{'每包 '+item_data.num+" 题 / 时长 "+item_data.time+" / 剩余 "+item_data.surplus+''}}</view></navigator></view>

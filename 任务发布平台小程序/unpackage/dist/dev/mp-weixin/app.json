@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/list/list",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "任务平台",
+    "navigationBarBackgroundColor": "#61CB70",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#61CB70",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tab-bar1.png",
+        "selectedIconPath": "static/image/tab-bar1-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/image/tab-bar3.png",
+        "selectedIconPath": "static/image/tab-bar3-selected.png",
+        "text": "全部"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

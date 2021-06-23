@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "任务平台",
+  "usingComponents": {
+    "notice": "/components/notice",
+    "list-item": "/components/listItem"
+  }
+}

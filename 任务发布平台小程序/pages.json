@@ -1,0 +1,48 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "任务平台"
+			}
+		}
+	    ,{
+            "path" : "pages/news/news",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {}
+        }
+    ],
+    "tabBar":{
+        "color": "#7A7E83",
+        "selectedColor": "#61CB70",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list":[
+            {
+                "pagePath":"pages/index/index",
+                "iconPath": "static/image/tab-bar1.png",
+                "selectedIconPath": "static/image/tab-bar1-selected.png",
+                "text":"首页"
+            },
+            {
+                "pagePath":"pages/list/list",
+                "iconPath": "static/image/tab-bar3.png",
+                "selectedIconPath": "static/image/tab-bar3-selected.png",
+                "text":"全部"
+            }
+        ]
+    },
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "任务平台",
+		"navigationBarBackgroundColor": "#61CB70",
+		"backgroundColor": "#F8F8F8"
+	}
+}

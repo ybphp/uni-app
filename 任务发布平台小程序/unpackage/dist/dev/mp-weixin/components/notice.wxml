@@ -1,0 +1,1 @@
+<block wx:if="{{notice.length}}"><view class="notice-group"><image class="notice-icon" src="../static/image/notice.png"></image><navigator class="notice-text" url="{{notice[notice_index]['id']}}">{{notice[notice_index]['title']}}</navigator></view></block>
